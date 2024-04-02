@@ -8,6 +8,7 @@
 
     --fonte-padrao:'inter' ;
 }
+
 body{
     margin:0px; /* Margen externa*/
     padding:0px; /*Margen Interna*/
@@ -16,6 +17,7 @@ body{
     background: linear-gradient(180deg, rgba(12, 112, 242, 0.5)19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
     background-repeat:no-repeat;
 }
+
 /* MENU DE NAVEGAÇÃO PRINCIPAL*/
 #principal{ 
         border: 1px  solid black;
@@ -30,6 +32,7 @@ body{
         border-bottom: ipx solid #BABABA;
 
 }
+
 #menu{
        display: flex;
        width: 55%;
@@ -37,6 +40,7 @@ body{
        align-items: center;
 
 }
+
 #principal div a{
       font-family: var(--fonte-padrao);
       font-size: 25px;
@@ -45,10 +49,12 @@ body{
       text-decoration: none;
 
 } 
+
 #principal div a:hover{
       color: var(--cinza-hover);
 
 }
+
 #principal button{
       margin-top: 15px;
       margin-right: 5%;
@@ -65,6 +71,7 @@ body{
       box-shadow: 3px 2px 4px rgba(12,112, 242, 0.30);
       cursor: pointer;
 }
+
 /*seção principal do site*/
 section{
     display: flex;
@@ -74,11 +81,13 @@ section{
     margin-bottom: 100px;
         
 }
+
 header{
     color: white;
     font-family: var(--fonte-padrao);
        
 }
+
 header h1{
     text-transform:uppercase ;
     font-size:55px;
@@ -87,6 +96,7 @@ header h1{
 
     margin-bottom: 20px;
 }
+
 header h2{
     text-align: center;
     font-size: 40px;
@@ -94,11 +104,13 @@ header h2{
 
     margin-bottom: 100px;
 }
+
 header .invert{
     background-color: black;
     font-weight: bold;
     padding: 4px;
 }
+
 /* Formulario */
 form{
     color:white;
@@ -108,6 +120,7 @@ form{
     width: 500px;
     
 }
+
 .form-group{
     display: flex;
     flex-direction: column;
@@ -132,6 +145,7 @@ form label{
 form input::placeholder{
     color:rgba(57, 57,57, 0.5);
 }
+
 .checkbox-itens label{
     font-size: 25px;
 }
@@ -158,4 +172,95 @@ input[type="submit"]{
 
 }
 
+/* FOOTER*/
+footer{
+    width: 100%;
+    background-color: var(--azul-dnc);
+}
 
+footer .linha1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);
+    font-size: 25px;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+footer h5{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: var(--fonte-padrao);
+    background-color: var(--preto-dnc);
+    border-radius: 10px;
+
+    padding: 10px 10px 10px 10px;
+    margin-top: 100px;
+}
+
+footer ul li{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+   
+    
+}
+footer ul li a:hover{
+    color: var(--cinza-hover);
+}
+
+footer .endereco{
+    font-weight: 600;
+    font-size: 25px;
+    font-family: var(--fonte-padrao);
+    color: white;
+    width: 40%;
+    text-align: center;
+}
+
+footer .linha2{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+footer .linha2 a{
+    font-family: var(--fonte-padrao);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+ footer .linha2 a:hover{
+    color:var(--cinza-hover)
+ }
+/* primeiro filho vai ter o traço*/
+ footer .linha2 a:first-child{
+    border-right: 3px solid white;
+ }
