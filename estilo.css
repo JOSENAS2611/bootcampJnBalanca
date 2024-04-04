@@ -274,5 +274,20 @@ footer .linha2 a{
  }
 
  @media only screen and (max-width: 600px){
-    
+    #principal{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    #menu a{
+        height: 50px;
+        
+    }
+
  }
