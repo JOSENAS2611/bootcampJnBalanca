@@ -1,6 +1,6 @@
 # TreinamentoJnBalanca
 Site desenvolvido com HTML e CSS.
-Uma Landing Page de divulgação referente a curso de capacitação de manutenção de balanças e conteúdo gratuitos.
+Uma Landing Page de divulgação referente a curso de capacitação e manutenção em balanças com conteúdo gratuitos.
 Descrição da construção:
 1 - Cabeçalho com três links e Butão de login;
 2 - Corpo do site nome da instituição com uma pequena descrição sobre o que está oferecendo com temas atrativos focados no que tem para oferecer;
